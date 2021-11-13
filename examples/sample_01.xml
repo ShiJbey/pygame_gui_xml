@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gui>
+    <panel
+            relative-rect="0 0 400 400"
+            z-index="1"
+            margins="10, 10, 10, 10"
+            id="btn-panel"
+    >
+        <label>Press the button</label>
+        <button
+                id="play-btn"
+                relative-rect="10 10 10 10"
+                z-index="1"
+                allow-double-clicks="False"
+                visible="True"
+                anchors="left top left top"
+        >
+            Play!
+        </button>
+        <image
+                src="{{image}}"
+                id="img"
+        >
+        </image>
+    </panel>
+</gui>
