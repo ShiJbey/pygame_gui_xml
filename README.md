@@ -37,11 +37,11 @@ There are no examples to show yet
 
 ## Versioning
 
-This package follows the release versions of PyGame GUI so that compatibility to easy to reason about. As such, if any breaking changes are made the the core pygame_gui module, then you may assume that that version of pygame_gui is also incompatible with non-updated releases of this package. 
+This package uses the same semantic versions of PyGame GUI. So you can assume that matching versions are compatible. As such, if pygame_gui releases updates with breaking changes, then you may assume those changes are also incompatible with this package.
 
 ## Contributing
 
-Currently, I do not have a process for folks contributing to this project. I made this on the side as a tool to help me faster iterate on creating UI layouts for a research project. If you would like to contribute, go ahead, fork the repo, and make a pull request.
+Currently, I do not have a process for contributing to this project. I am working on this on the side as a tool to help me faster iterate on creating UI layouts for a research project. If you would like to contribute, go ahead, fork the repo, and make a pull request.
 
 ## Licensing
 
